@@ -1,0 +1,114 @@
+@media only screen and (max-width: 991px) {
+  .sidenavs .closebtn {
+    display: block;
+    line-height: 25px;
+    right: 7px;
+    margin: 0;
+  }
+
+  ul.menu_navigation {
+    display: inline-block;
+    width: 100%;
+  }
+
+  ul.menu_navigation li,
+  ul.top-menu li {
+    padding: 0;
+    border-bottom: 1px solid #ddddddc7;
+  }
+
+  .sidenavs a {
+    margin: 0;
+  }
+
+  ul.menu-btns li {
+    padding: 10px 8px;
+    width: 100%;
+  }
+
+  li.become-member .btn {
+    margin-right: 0;
+  }
+
+  span.toggle_menu {
+    display: inline-block;
+    color: #17a3df;
+    font-size: 30px;
+    position: relative;
+    right: 0;
+    top: 0px;
+    margin-left: 15px;
+  }
+
+  .sidenavs {
+    width: 0;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    overflow-x: hidden;
+    background: #1e4359;
+    transition: all 0.3s;
+  }
+
+  ul.menu_navigation {
+    padding-top: 50px;
+    padding-left: 0;
+  }
+
+  .sidenavs a,
+  ul.top-menu a {
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    color: #fff;
+  }
+
+  .sidenavs .menu-btns a {
+    display: block;
+    text-align: center;
+  }
+
+  .mid_menu_header {
+    padding: 20px 0 20px 0;
+  }
+
+  .top-brs.for-mob,
+  .menu-btns {
+    display: block;
+  }
+
+  .top-brs.for-desk {
+    display: none;
+  }
+
+  .top-brs .top-menu {
+    display: block;
+    border-bottom: 0;
+    padding: 40px 0 0;
+  }
+
+  li.lst-btn {
+    padding: 10px !important;
+    text-align: center;
+  }
+
+  li.lst-btn a {
+    text-align: center;
+    justify-content: center;
+  }
+
+  ul.menu_navigation li a {
+    padding: 20px;
+    display: inline-block;
+  }
+
+  .last-mains ul li a {
+    margin: 0 0 0 21px;
+  }
+
+}
