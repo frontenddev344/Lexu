@@ -3,9 +3,7 @@
     padding-right: 26px;
   }
 
-  .funciona-wrapper {
-    padding-left: 0;
-  }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -143,6 +141,23 @@
     object-fit: cover;
     max-width: 100%;
   }
+
+  .funciona-wrapper {
+    padding-left: 0;
+  }
+
+
+  .francisco-dis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .factura-text-silder {
+    padding: 40px 0 0 21px;
+    max-width: 621px;
+  }
 }
 
 
@@ -150,5 +165,18 @@
   .banner-site-text h1 {
     font-size: 30px !important;
     line-height: 41px !important;
+  }
+
+  .nosotros {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width:575px) {
+  .facturas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }

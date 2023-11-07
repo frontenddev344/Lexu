@@ -943,6 +943,7 @@ section.hoy-wrapper {
     background-repeat: no-repeat;
     fill: var(--Brand-2, #70B7DE);
     left: 95px;
+    max-width: 295.86px;;
 }
 
 .hoy-inner p {
