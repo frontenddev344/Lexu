@@ -816,6 +816,7 @@ section.incumple {
 .francisco-dis {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .text-ceo {
@@ -866,4 +867,148 @@ section.incumple {
     position: absolute;
     width: 100%;
     bottom: 40px;
+}
+
+section.hoy-wrapper {
+    padding: 72px 0 0;
+}
+
+.hoy-inner {
+    width: 100%;
+    max-width: 511px;
+
+    text-align: center;
+}
+
+.hoy-inner h3 {
+    color: var(--Brand-1, #1E4359);
+    text-align: center;
+    font-family: Metropolis;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: relative;
+}
+
+.hoy-inner h3::after {
+    background: url(../images/Layer_1.png);
+    content: '';
+    position: absolute;
+    top: 32px;
+    height: 34px;
+    width: 100%;
+    background-repeat: no-repeat;
+    fill: var(--Brand-2, #70B7DE);
+    left: 95px;
+}
+
+.hoy-inner p {
+    color: var(--Brand-1, #1E4359);
+    text-align: center;
+    margin-top: 41px;
+    font-family: Nunito;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.compromiso a {
+    border-radius: 5.066px;
+    background: var(--Accent, #7325D7);
+    padding: 14px 20px;
+    display: inline-block;
+    color: var(--White, #FFF);
+    font-family: Metropolis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 33px;
+    line-height: normal;
+    border: 1px solid var(--Accent);
+    transition: all 0.3s;
+}
+
+.compromiso a:hover {
+    background-color: transparent;
+    color: var(--Accent);
+    border: 1px solid var(--Accent);
+}
+
+.facturads img {
+    width: 366px;
+    height: 519px;
+}
+
+.nosotros {
+    display: flex;
+    width: 100%;
+    max-width: 1046px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/*  */
+footer.footer {
+    background: var(--Brand-1, #1E4359);
+    padding: 57px 0 20px;
+}
+
+.footer-logo img {
+    width: 92px;
+    height: 40px;
+    margin-bottom: 29px;
+}
+
+.footer-logo p {
+    color: var(--Brand-2-lighter, #D4F0FF);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 199px;
+    line-height: normal;
+}
+
+.intereses {
+    color: var(--Brand-2-lighter, #D4F0FF);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intereses p {
+    margin-bottom: 24px;
+}
+
+.intereses {
+    max-width: 136px;
+    margin-left: auto;
+}
+
+.footer-bt {
+    margin-top: 51px;
+}
+
+
+.footer-bt p {
+    color: var(--Brand-2-lighter, #D4F0FF);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intereses p a {
+    color: var(--Brand-2-lighter, #D4F0FF);
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
