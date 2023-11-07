@@ -943,7 +943,8 @@ section.hoy-wrapper {
     background-repeat: no-repeat;
     fill: var(--Brand-2, #70B7DE);
     left: 95px;
-    max-width: 295.86px;;
+    max-width: 295.86px;
+    ;
 }
 
 .hoy-inner p {
@@ -1067,3 +1068,41 @@ footer.footer {
     font-weight: 500;
     line-height: normal;
 }
+
+/* 2 page start from here */
+section.servicios {
+    padding-top: 108px;
+    padding-bottom: 81px;
+}
+
+section.servicios .servicio1 .servicio1-text h1 {
+    color: #000;
+    font-family: Metropolis;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%;
+    margin-bottom: 40px;
+}
+
+section.servicios .servicio1 .servicio1-text h1 span {
+    color: var(--Accent, #7325D7);
+    font-family: Metropolis;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%;
+
+}
+
+section.servicios .servicio1 .servicio1-text p {
+    color: var(--Brand-1, #1E4359);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    max-width: 559px;
+}
+

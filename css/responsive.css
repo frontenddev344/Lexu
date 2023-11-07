@@ -158,6 +158,18 @@
     padding: 40px 0 0 21px;
     max-width: 621px;
   }
+
+  section.servicios .servicio1 .row {
+    flex-direction: column-reverse;
+  }
+
+  .servicio1-text {
+    margin-top: 40px;
+  }
+  section.servicios {
+    padding-top: 30px;
+
+}
 }
 
 
