@@ -1104,3 +1104,47 @@ section.servicios .servicio1 .servicio1-text p {
     width: 100%;
     max-width: 559px;
 }
+
+section.sobre-nosotro {
+    background: url(../images/boy.png);
+    height: 832px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+}
+
+section.sobre-nosotro::before {
+    background: linear-gradient(90deg, #1E4359 0%, rgba(30, 67, 89, 0.00) 73.25%);
+    content: '';
+    position: absolute;
+    width: 100%;
+    inset: 0;
+    z-index: -1;
+}
+
+
+section.sobre-nosotro .sobre-wrapper h2 {
+    color: var(--White, #FFF);
+    font-family: Metropolis;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 105%;
+    margin-bottom: 40px;
+}
+
+
+section.sobre-nosotro .sobre-wrapper p {
+    color: var(--Brand-2-lightest, #EEF9FF);
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    line-height: normal;
+    max-width: 559px;;
+}
