@@ -1146,5 +1146,17 @@ section.sobre-nosotro .sobre-wrapper p {
     font-weight: 500;
     width: 100%;
     line-height: normal;
-    max-width: 559px;;
+    max-width: 559px;
+    ;
+}
+
+.sobre-nosotro::after {
+    content: '';
+    background: url(../images/wave-1.png)no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-size: cover;
 }
